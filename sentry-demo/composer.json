@@ -1,0 +1,14 @@
+{
+    "name": "sbuerk/sentry-demo",
+    "require": {
+        "sentry/sentry": "^1.9.2"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Stefan Bürk",
+            "email": "stefan.buerk@impactmedia.de"
+        }
+    ]
+}

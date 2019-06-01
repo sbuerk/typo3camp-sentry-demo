@@ -1,0 +1,16 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script src="https://cdn.ravenjs.com/3.26.2/raven.min.js" crossorigin="anonymous"></script>
+        <script>
+            Raven.config('http://cf5dc3ae75c344258ee36aa517a63ce3@localhost:9001/2').install();
+            Raven.context(function () {
+                
+                throw new Error("test")   ;
+
+            });
+        </script>
+    </body>
+</html>
