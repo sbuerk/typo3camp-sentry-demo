@@ -1,5 +1,16 @@
 # Typo3Camp - Application Logging with Sentry
 
+## Unwichtige Fakts (Wer bin ich)
+
+Name: Stefan Bürk
+Firma: imp@ct.media GmbH
+
+Begeisteter und Leidenschaftlicher Entwickler und Nerd/Freak
+
+PHP, JS, GOLANG, Python, Perl, C, C++, C#, VB, VB#, Delphi, Pascal, Ada, Cobol, Fortran, (BASH), Swift, .....
+
+## Einleitung
+
 - Was ist Application Logging ? 
 - Unterschied zum Serverlogging
 
@@ -42,8 +53,14 @@ Standard Exception/Error Handler Registrieren:
     $error_handler->registerErrorHandler();
     $error_handler->registerShutdownFunction();
 
-    
+
 
 ## Beispiele - JavaScript
 
 sentry-demo/javascript.html im Browser aufrufen
+
+
+## Typo3 Extension
+
+- https://github.com/networkteam/sentry_client
+- https://github.com/AOEpeople/TYPO3-sentry-client-js
